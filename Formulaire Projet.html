@@ -1,0 +1,66 @@
+<style type="text/css">
+</style>
+<form method="post" accept-charset="UTF-8" action="https://formkeep.com/f/bf85e5814778" action="." >
+   <div class="devis_infos">
+       <select class="fifth" name="type">
+           <!-- Can be dynamically filled (sql+php) -->
+           <option>Qui recherchez-vous ?</option>
+           <option value="tous_corps_etat">Tous Corps d'état</option>
+           <option value="renovation">Entreprise de rénovation</option>
+           <option value="constrution">Entreprise de construction</option>
+           <option value="carreleur">Carreleur</option>
+           <option value="charpentier">Charpentier</option>
+           <option value="climatisation">Climatisation</option>
+           <option value="couvreur">Couvreur</option>
+           <option value="demoliton">Démolition</option>
+           <option value="electricien">Electricien</option>
+           <option value="frigoriste">Frigoriste</option>
+           <option value="isolation">Isolation</option>
+           <option value="macon">Maçon</option>
+           <option value="marbrier">Marbrier</option>
+           <option value="menuisier">Menuisier</option>
+           <option value="metallier">Métallier</option>
+           <option value="pierre">Métier de la pierre</option>
+           <option value="peintre">Peintre</option>
+           <option value="platrier">Platrier</option>
+           <option value="plombier">Plombier</option>
+           <option value="revetement">Revêtement murale</option>
+           <option value="serrurier">Serrurier</option>
+           <option value="tapissier">Tapissier</option>
+           <option value="vitrier">Vitrier</option>
+           <option value="autre">Autre</option>
+       </select>
+       <select class="fifth" name="what">
+           <!-- Can be dynamically filled (sql+php) -->
+           <option>Type de biens</option>
+           <option value="maison">Maison</option>
+           <option value="appartement">Appartement</option>
+           <option value="immeuble">Immeuble</option>
+           <option value="commerce">Commerce</option>
+           <option value="bureau">Bureau</option>
+       </select>
+       <select class="fifth" name="when">
+           <!-- Can be dynamically filled (sql+php) -->
+           <option>Date des travaux</option>
+           <option value="now">Immédiat</option>
+           <option value="1to3">1 à 3 mois</option>
+           <option value="3to6">3 à 6 mois</option>
+           <option value="6plus">Plus de 6 mois</option>
+       </select>
+       <input id="user_input_autocomplete_address" class="fifth" name="localisation" placeholder="Localisation"/>
+       <input type="text" class="fifth" name="price" placeholder="Budget"/>
+   </div>
+   <div class="devis_description">
+       <textarea placeholder="Décrivez votre projet" class="textarea" required></textarea><br>
+       <small>Merci de ne pas indiquer d'adresse mail, numéro de téléphone ou adresse postale. Ceux-ci seront communiqués séparément.</small>
+   </div>
+   <div class="whosasking">
+       <input type="email" class="whole" name="email" placeholder="Adresse e-mail" required/><br>
+       <input type="text" class="third" name="lname" placeholder="Nom" required/>
+       <input type="text" class="third center" name="fname" placeholder="Prénom" required/>
+       <input type="tel" class="third" name="phone" placeholder="Téléphone" required/>
+   </div>
+   <input type="submit" value="Poster le projet" class="button"/>
+</form>
+
+
